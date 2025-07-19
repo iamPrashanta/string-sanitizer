@@ -1,0 +1,24 @@
+{
+  "name": "prash/string-sanitizer",
+  "description": "Custom Laravel validator and sanitizer for PHP strings",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Prash\\StringSanitizer\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "Prashanta Mondal",
+      "email": "iloveprashanta@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=8.0"
+  }
+}
