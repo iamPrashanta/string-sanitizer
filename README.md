@@ -16,7 +16,7 @@ This package provides:
 ### Option 1: From Packagist (Public)
 
 ```bash
-composer require prashanta/string-sanitizer
+composer require composer require prash/string-sanitizer
 ```
 
 ### Option 2: From Private GitHub Repository
@@ -27,11 +27,11 @@ Add the repository to your Laravel app’s `composer.json`:
 "repositories": [
     {
         "type": "vcs",
-        "url": "https://github.com/prashanta/string-sanitizer"
+        "url": "https://github.com/iamprashanta/string-sanitizer"
     }
 ],
 "require": {
-    "prashanta/string-sanitizer": "dev-main"
+    "prash/string-sanitizer": "dev-main"
 }
 ```
 
@@ -47,7 +47,7 @@ composer update
 
 ```
 packages/
-└── prashanta/
+└── prash/
     └── string-sanitizer/
         ├── src/
         │   ├── StringSanitizerServiceProvider.php
@@ -65,7 +65,7 @@ For Laravel <5.5, add the provider manually to `config/app.php`:
 
 ```php
 'providers' => [
-    Prashanta\StringSanitizer\StringSanitizerServiceProvider::class,
+    Prash\StringSanitizer\StringSanitizerServiceProvider::class,
 ],
 ```
 
@@ -145,4 +145,4 @@ MIT License — Use freely in personal or commercial projects.
 
 ---
 
-Made with ❤️ by [Prashanta Mondal](https://github.com/prashanta)
+Made with ❤️ by [Prashanta Mondal](https://github.com/iamprashanta)
